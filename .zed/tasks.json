@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Run Dev",
+    "type": "shell",
+    "command": "bun run --bun dev",
+    "group": {
+      "kind": "run",
+      "isDefault": true
+    },
+    "detail": "Run app in dev"
+  },
+  {
+    "label": "Run Prod",
+    "type": "shell",
+    "command": "bun run start",
+    "group": {
+      "kind": "run",
+      "isDefault": true
+    },
+    "detail": "Run app in prod"
+  },
+  {
+    "label": "Build",
+    "type": "shell",
+    "command": "bun run build",
+    "group": {
+      "kind": "build",
+      "isDefault": true
+    },
+    "detail": "Build app"
+  }
+]
